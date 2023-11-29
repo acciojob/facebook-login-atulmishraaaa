@@ -13,16 +13,21 @@ body{
 	display:inline-block;
 }
 .right{
-	
+	display:flex;
+	flex-direction:column;
+	width:300px;
+	align-items:center;
+	background-color:white;
+	box-shadow:0 0 10px #ccc;
+	padding:20px;
+	gap:10px;
+	border-radius:5px;
 }
 form{
 	display:flex;
 	flex-direction:column;
-	width:300px;
-	background-color:white;
+	width:100%;
 	padding:20px;
-	border-radius:5px;
-	box-shadow:0 0 10px #ccc;
 	gap:10px;
 }
 form>input{
@@ -33,6 +38,7 @@ form>input{
 form>a{
 	text-decoration:none;
 	color:#1877f2;
+	
 }
 form>button{
 	background-color:#1877f2;
@@ -43,5 +49,8 @@ form>button{
 }
 .signup{
 	background-color:#42b72a;
+	border-radius:5px;
+	padding:10px 20px;
 	border:none;
 	color:white;
+	width:100%;
